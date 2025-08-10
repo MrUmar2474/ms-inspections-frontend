@@ -1,0 +1,35 @@
+nohup: ignoring input
+Starting up http-server, serving dist
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: true
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:3000
+  http://169.254.0.21:3000
+Hit CTRL-C to stop the server
+
+[Sat Aug 09 2025 14:43:11 GMT-0400 (Eastern Daylight Time)]  "GET /" "curl/7.81.0"
+(node:4599) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Sat Aug 09 2025 14:43:43 GMT-0400 (Eastern Daylight Time)]  "HEAD /" "node"
+[Sat Aug 09 2025 14:43:43 GMT-0400 (Eastern Daylight Time)]  "GET /" "node"
+[Sat Aug 09 2025 15:03:57 GMT-0400 (Eastern Daylight Time)]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:03:57 GMT-0400 (Eastern Daylight Time)]  "GET /assets/index-HgO8_HiU.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:03:57 GMT-0400 (Eastern Daylight Time)]  "GET /assets/index-kAwTJ7Wv.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:03:59 GMT-0400 (Eastern Daylight Time)]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:04:37 GMT-0400 (Eastern Daylight Time)]  "POST /api/auth/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:04:37 GMT-0400 (Eastern Daylight Time)]  "POST /api/auth/login" Error (404): "Not found"
+[Sat Aug 09 2025 15:04:42 GMT-0400 (Eastern Daylight Time)]  "POST /api/auth/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:04:42 GMT-0400 (Eastern Daylight Time)]  "POST /api/auth/login" Error (404): "Not found"
+[Sat Aug 09 2025 15:04:53 GMT-0400 (Eastern Daylight Time)]  "POST /api/auth/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[Sat Aug 09 2025 15:04:53 GMT-0400 (Eastern Daylight Time)]  "POST /api/auth/login" Error (404): "Not found"
